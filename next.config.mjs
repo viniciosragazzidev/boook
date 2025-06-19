@@ -8,7 +8,9 @@ export default withPWA({
   images: {
     remotePatterns: [
       {
-        hostname: "avatars.githubusercontent.com",
+        hostname: "books.google.com",
+        protocol: "https",
+        port: "",
       },
     ],
   },
